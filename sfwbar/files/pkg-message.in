@@ -1,7 +1,7 @@
 [
 { type: install
   message: <<EOM
-Copy sfwbar.config from ${DATADIR}/sfwbar/ to ~/.config/sfwbar/.
+Copy sfwbar.config from %%DATADIR%% to ~/.config/sfwbar/.
 If you prefer to start with something more like tint2 bar, you can copy t2.config into ~/.config/sfwbar/sfwbar.config instead.
 If you want something like waybar, you can copy wbar.config and if you prefer something from the darker side, w10.config could be for you.
 For more information on the format of configuration file, please see the man page

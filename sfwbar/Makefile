@@ -8,8 +8,7 @@ WWW=		https://github.com/LBCrion/sfwbar
 
 LICENSE=	GPLv3
 
-BUILD_DEPENDS=	pkg-config:devel/pkgconf \
-		wayland-protocols>0:graphics/wayland-protocols
+BUILD_DEPENDS=	wayland-protocols>0:graphics/wayland-protocols
 LIB_DEPENDS=	libgtk-3.so:x11-toolkits/gtk30 \
 		libcairo.so:graphics/cairo \
 		libcairo.so:graphics/cairo \
@@ -22,9 +21,12 @@ LIB_DEPENDS=	libgtk-3.so:x11-toolkits/gtk30 \
 		libjson-c.so:devel/json-c
 RUN_DEPENDS=	wayland-protocols>0:graphics/wayland-protocols
 
-USES=	meson ninja
+USES=	meson ninja pkgconfig
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	LBCrion
+
+SUB_FILES=	pkg-message 
+SUB_LIST=	DATADIR=${DATADIR}
 
 .include <bsd.port.mk>
