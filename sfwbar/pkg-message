@@ -14,6 +14,7 @@ for_window [app_id="[.]*"] floating enable
 bindsym Alt+Tab bar hidden_state toggle 
 # set $mod+c to hide/unhide taskbar 
 bindsym $mod+c bar mode toggle
+
 EOM
 }
 ]
