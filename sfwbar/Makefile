@@ -2,7 +2,7 @@ PORTNAME=	sfwbar
 DISTVERSION=	v1.0_beta9
 CATEGORIES=	x11
 
-MAINTAINER=	elfreebsdo@e.mail.de
+MAINTAINER=	tino.engel@mail.de
 COMMENT=	Flexible taskbar application for wayland compositors
 WWW=		https://github.com/LBCrion/sfwbar
 
