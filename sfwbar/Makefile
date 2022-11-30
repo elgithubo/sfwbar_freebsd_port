@@ -20,6 +20,7 @@ LIB_DEPENDS=	libgtk-3.so:x11-toolkits/gtk30 \
 		libgtk-layer-shell.so:x11-toolkits/gtk-layer-shell \
 		libwayland-client.so:graphics/wayland \
 		libjson-c.so:devel/json-c
+RUN_DEPENDS=	wayland-protocols>0:graphics/wayland-protocols
 
 USES=	meson ninja
 
