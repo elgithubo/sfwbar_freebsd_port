@@ -26,7 +26,7 @@ USES=	meson ninja pkgconfig
 USE_GITHUB=	yes
 GH_ACCOUNT=	LBCrion
 
-SUB_FILES=	pkg-message 
+SUB_FILES=	pkg-message
 SUB_LIST=	DATADIR=${DATADIR}
 
 .include <bsd.port.mk>
