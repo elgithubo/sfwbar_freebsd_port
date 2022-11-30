@@ -8,10 +8,10 @@ WWW=		https://github.com/LBCrion/sfwbar
 
 LICENSE=	GPLv3
 
-USES= meson ninja
+USES=	meson ninja
 
-USE_GITHUB=     yes
-GH_ACCOUNT=     LBCrion
+USE_GITHUB=	yes
+GH_ACCOUNT=	LBCrion
 
 LIB_DEPENDS+=libgtk-3.so:x11-toolkits/gtk30
 LIB_DEPENDS+=libcairo.so:graphics/cairo
